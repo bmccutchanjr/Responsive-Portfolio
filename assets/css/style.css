@@ -106,7 +106,7 @@ header
     border-bottom-color: var(--text-color);
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    height: 65px;
+    height: 67px;
     margin: 0 auto 30px;
     overflow: auto;
     width: 100%;
@@ -145,8 +145,32 @@ h1
     margin: 0px;
     top: 0px;
 }
- 
+
 /* end style specific to nav bar
+*/
+ 
+/* begin stype specfiic to portfolio
+*/
+
+.image-row
+{   display: flex;
+    height: auto;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.app-image
+{   border-color: var(--text-color);
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 2px;
+}
+/* end style specific to portfolio
 */
 
 /* begin stype specfiic to "sticky" footer
@@ -166,7 +190,7 @@ footer
     bottom: 0px;
     color: #888888;
     font-size: 10pt;
-    margin-top: 30px;
+    margin-top: 29px;
     padding-bottom: 5px;
     padding-top: 5px;
     text-align: center;
@@ -178,30 +202,28 @@ footer
 
 @media screen and (max-width: 980px)
 {   .about, .header
-    {   width: 760px;
+    {   width: 80%;
     }
-
-/*    .wrapper
-    {   background: green;}
-*/
 }
 
 @media screen and (max-width: 768px)
-{   .about, .header
-    {   width: 695px;
+{   header
+    {   height: 49px;
     }
-/* 
-    .wrapper
-    {   background: blue;}
-*/
+
+    h1
+    {   font-size: 24px;
+        padding: 10px;
+    }
+
+    nav
+    {   font-size: 16px;
+        font-weight: normal;
+    }
 }
 
 @media screen and (max-width: 640px)
-{   .about
-    {   width: 535px;
-    }
-
-    header
+{   header
     {   height: 84px;
     }
 
@@ -220,7 +242,6 @@ footer
     nav
     {   display: flex;
         float: none;
-        font-size: 16px;
         font-weight: normal;
         justify-content: space-around;
         padding: 8px;
@@ -230,9 +251,7 @@ footer
 
     #headshot
     {   float: none;
+        height: auto;
+        width:100%;
     }
-/*
-    .wrapper
-    {   background: red;}
-*/
 }
