@@ -240,12 +240,12 @@ footer
         float: none;
         font-weight: normal;
         justify-content: space-around;
-        padding: 8px;
+        padding: 6px;
         position: relative;
         top: 47px;
     }
 
-    #headshot
+    #headshot, .app-image
     {   float: none;
         height: auto;
         width:100%;
