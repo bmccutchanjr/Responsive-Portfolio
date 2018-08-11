@@ -23,7 +23,7 @@ body
     background: url("../images/128-196.jpg");
     color: var(--text-color);
     font-family: "Roboto", "Arial", "Helvitica-Nueu", Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px;
     padding: 0px;
 }
@@ -35,8 +35,13 @@ h2
 }
 
 #headshot
-{   float: left;
+{   border-color: var(--text-color);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
     margin-right: 10px;
+    padding: 2px;
     vertical-align: text-top;
 }
 
@@ -106,7 +111,7 @@ header
     border-bottom-color: var(--text-color);
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    height: 67px;
+    height: 69px;
     margin: 0 auto 20px;
     overflow: auto;
     width: 100%;
@@ -118,13 +123,13 @@ header
 }
 
 nav
-{   padding: 18px;
+{   padding: 20px;
     float: right;
-    font-size: 21px;
 }
 
 nav a
 {   color: var(--text-color);
+    font-size: 18px;
     margin-right: 10px;
     text-decoration: none;
 }
@@ -139,8 +144,8 @@ h1
     color: white;
     float: left;
     font-family: "Georgia", Times, "Times New Roman", serif;
-    font-size: 30px;
-    padding: 15px;
+    font-size: 24px;
+    padding: 20px;
     position: absolute;
     margin: 0px;
     top: 0px;
@@ -170,10 +175,11 @@ h1
     margin-left: 10px;
     padding: 2px;
 }
+
 /* end style specific to portfolio
 */
 
-/* begin stype specfiic to "sticky" footer
+/* begin style specfiic to "sticky" footer
 */
 
 .wrapper
@@ -202,23 +208,13 @@ footer
 
 @media screen and (max-width: 980px)
 {   .about, .header
-    {   width: 80%;
+    {   width: 75%;
     }
 }
 
 @media screen and (max-width: 768px)
-{   header
-    {   height: 49px;
-    }
-
-    h1
-    {   font-size: 24px;
-        padding: 10px;
-    }
-
-    nav
-    {   font-size: 16px;
-        font-weight: normal;
+{   .about, .header
+    {   width: 85%;
     }
 }
 
