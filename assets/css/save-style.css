@@ -165,47 +165,15 @@ h1
     width: 100%;
 }
 
-.app-row
-{   background: yellow;
-    height: auto;
-    margin: 0 auto;
-    width: 652px;
-}
-
-.app-div
+.app-image
 {   border-color: var(--text-color);
     border-style: solid;
     border-radius: 2px;
     border-width: 1px;
-    float: left;
-    height: auto;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
     padding: 2px;
-    position: relative;
-    width: 306px;
-}
-
-.add-div img
-{   width: 100%;
-}
-
-.app-banner, .hold-banner
-{   background: var(--main-color);
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 10px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-}
-
-.hold-banner
-{   background: #8f8f8f;
 }
 
 /* end style specific to portfolio
@@ -242,19 +210,11 @@ footer
 {   .about, .header
     {   width: 75%;
     }
-
-    .app-row
-    {   width: 306px;
-    }
 }
 
 @media screen and (max-width: 768px)
 {   .about, .header
     {   width: 85%;
-    }
-
-    .app-row, .app-div, .app-div img
-    {   width: 100%;
     }
 }
 
