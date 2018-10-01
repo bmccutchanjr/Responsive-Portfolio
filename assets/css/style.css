@@ -151,8 +151,9 @@ h1
 }
 
 /*                                          */
-/* begin stype specfiic to portfolio        */
+/* begin style specfiic to portfolio        */
 /*                                          */
+
 .app-container
 {   display: flex;
     flex-wrap: wrap;
