@@ -154,6 +154,18 @@ h1
 /* begin style specfiic to portfolio        */
 /*                                          */
 
+.portfolio
+{   background: #ffffff;
+    border: 1px solid var(--text-color);
+    border-radius: 2px;
+    margin: 0 auto;
+    min-height: 150px;
+    /* overflow: auto; */
+    padding: 30px;
+    position: relative;
+    width: 960px;
+}
+
 .app-container
 {   display: flex;
     flex-wrap: wrap;
@@ -206,9 +218,9 @@ h1
     color: var(--main-color);
 }
 
-.app-link:visited
-{   color: white;
-}
+/* .app-link:visited */
+/* {   color: white; */
+/* } */
 
 /*                                          */
 /* begin style specfiic to "sticky" footer  */
@@ -236,11 +248,11 @@ footer
 }
 
 /*                                          */
-/* end style specific to "sticky" footer    */
+/* @media queries for responsive design     */
 /*                                          */
 
 @media screen and (max-width: 980px)
-{   .about, .header
+{   .about, .header, .portfolio
     {   width: 75%;
     }
 
@@ -250,7 +262,7 @@ footer
 }
 
 @media screen and (max-width: 768px)
-{   .about, .header
+{   .about, .header, .portfolio
     {   width: 85%;
     }
 
