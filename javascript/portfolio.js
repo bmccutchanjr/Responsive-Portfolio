@@ -5,7 +5,7 @@ const projects =
         www:      "https://bmccutchanjr-burger.herokuapp.com",
         repo:     "https://github.com/bmccutchanjr/burger", 
         video:    "https://drive.google.com/file/d/1onIz9hobYicptweNtew0LWa7_f_tZ4h8/view", 
-        about:    "Burger is a full-stack web application built with Node.js, Express and Express-Handlebars.    It implements a Model-View-Controller (MVC) paradigm that creates multiple layers of abstraction.  It also uses Object-Relational Modeling (ORM), another abstraction, to interact with the database."
+        about:    "Burger is a full-stack web application built with Node.js, Express and Express-Handlebars.    It implements a Model-View-Controller (MVC) paradigm that creates multiple layers of abstraction.  It also uses Object-Relational Modeling (ORM), another abstraction, to interact with a MySQL database."
     },
     {   title:    "Friend Finder",
         subtitle: "A Full-Stack Node.js Application",
