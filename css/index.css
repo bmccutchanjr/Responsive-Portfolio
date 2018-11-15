@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*
+{   box-sizing: border-box;
+}
+
+:root
+{   
+    --main-bg-color: #00004f;
+    --main-fg-color: white;
+    --link-hover: #8f8f8f;
+}
+
+body
+{   background-color: var(--main-bg-color);
+    color: var(--main-fg-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{   font-family: "Fredoka One", cursize;
+    font-size: 36px;
+    height: auto;
+    min-height: 30vh;
+    padding: 10vh 10vw 10vh 10vw;
+    text-align: center;
+    width: 100vw;
+}
+
+.h2
+{   font-size: 30px;
+}
+
+main
+{   display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    max-width: 960px;
+    width: 96vw;
+}
+
+#headshot
+{   border: 1px solid var(--text-color);
+    border-radius: 2px;
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    vertical-align: text-top;
+}
+
+.about
+{   flex-grow: 1;
+    margin: 0 auto;
+    min-height: 150px;
+    overflow: auto;
+    padding: 30px;
+    position: relative;
+}
+
+.about a
+{   color: var(--link-color);
+}
+
+.about a:visited
+{   color: var(--text-color);
+    text-decoration: none;
+}
+
+.about a:hover
+{   color: var(--link-hover);
+}
+
+/*                                          */
+/* begin style specific to nav bar          */
+/*                                          */
+
+nav
+{   flex-grow: 0;
+    font-size: 40px;
+    height: 100%;
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    width: 75px;
+}
+
+nav a
+{   color: var(--text-color);
+    text-decoration: none;
+}
+
+nav a:hover
+{   color: #000000;
+    text-decoration: none;
+}
+
+/*                                          */
+/* begin style specfiic to "sticky" footer  */
+/*                                          */
+
+body, html
+{   height: 100%;
+    margin: 0;
+}
+
+.wrapper
+{   margin-bottom: -27px;
+    min-height: 100%;
+}
+
+.push
+{   height: 27px;
+}
+
+footer
+{   color: #00008f;
+    font-size: 14px;
+    padding: 5px 25px 5px 25px;
+    width: 100%;
+}
+
+/*                                          */
+/* @media queries for responsive design     */
+/*                                          */
+
+@media screen and (max-width: 640px)
+{   header
+    {   font-size: 24px;
+        width: 100%;
+    }
+
+    header .h2
+    {   font-size: 24px;
+    }
+
+    main
+    {   flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    nav
+    {   display: flex;
+        float: none;
+        justify-content: space-between;
+        margin: 0px auto;
+        padding: 0px 30px 0px 30px;
+        width: 75vw;
+    }
+
+    #headshot, .app-image
+    {   float: none;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        width:100%;
+    }
+}

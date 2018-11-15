@@ -4,51 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portfolio</title>
+    <title>Bill McCutchan</title>
 
-    <link href="assets/css/style.css"
-          rel="stylesheet"
-          type="text/css">
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+          crossorigin="anonymous">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
     <style>
     </style>
 </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <span class="h1">Hi...My name is Bill McCutchan</span><br>
+                <span class="h2">I'm a web developer</span>
+            </header>
 
-<body>
-<div class="wrapper">
-    <header>
-        <div class="header">
-            <h1>Bill McCutchan</h1>
+            <main>
+                <nav>
+                    <a class="nav-link" href="portfolio.html" target="_self" title="My Portfolio"><i class="far fa-folder"></i></a>
+                    <a class="nav-link" href="https://www.github.com/bmccutchanjr" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/bill-mccutchan-027284160/" target="_blank" title="Linked In Profile"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="nav-link" href="mailto:bmccutchanjr@gmail.com" target="_blank" title="E Mail"><i class="far fa-envelope"></i></a>
+                </nav>
+                <section class="about">
+                    <img src="images/alt-headshot.jpg" id="headshot" alt="My headshot">
 
-            <nav>
-                <a href="index.html">About Me</a>
-                <a href="contact.html">Contacts</a>
-                <a href="portfolio.html">Portfolio</a>
-            </nav>
+                    <p>I'm currently attending <a href="http:cwru.edu" target="_blank">Case Western Reseve University</a>'s <a href="https://bootcamp.case.edu/coding/" target="_blank">Coding Boot Camp</a> studying full-stack web development, working with HTML, CSS, JavaScript, Node.js, MySQL, ExpressJS, MongoDB and React.</p>
+
+                    <p>In the past I've held several jobs in Information Technology: Programmer and Senior Analyst in IBM mid-range and main-frame environments.  And I've also been Network Manager for a multi-national corporation with dozens of routers.  I enjoy coding and have dabbled with Java and web development over the years.</p>
+
+                    <p>When not in school, I spend a lot of time at the <a href="http://summithumane.org" target="_blank">Summit County Humane Society</a> playing with the dogs!</p>
+                </section>
+            </main>
+            <div class="push"></div>
         </div>
-    </header>
 
-    <main class="about">
-        <section>
-            <h2>About Me</h2>
-            <hr>
-
-            <img src="assets/images/headshot.jpg" id="headshot" alt="My headshot">
-
-            <p>I'm currently attending <a href="http:cwru.edu" target="_blank">Case Western Reseve University</a>'s <a href="https://bootcamp.case.edu/coding/" target="_blank">Coding Boot Camp</a> studying full-stack web development and JavaScript.</p>
-
-            <p>In the past I've held several jobs in Information Technology: Programmer and Senior Analyst in IBM mid-range and main-frame environments.  And I've also been Network Manager for a multi-national corporation with dozens of routers.  I enjoy coding and have dabbled with Java and web development over the years.</p>
-
-            <p>When not in school, I spend a lot of time at the <a href="http://summithumane.org" target="_blank">Summit County Humane Society</a> playing with the dogs!</p>
-
-            <p>You can reach me at: <a href="mailto:bmccutchanjr@gmail.com">bmccutchanjr@gmail.com</a><br>
-            or on: <a href="https://github.com/bmccutchanjr" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/bill-mccutchan-027284160/" target="_blank">LinkedIn</a></p>
-        </section>
-    </main>
-    
-    <div class="push"></div>
-</div>
-
-<footer>Copyright&copy;</footer>
-
-</body>
+        <footer>Copyright&copy;</footer>
+    </body>
 </html>
