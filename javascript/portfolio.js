@@ -1,5 +1,10 @@
 const projects = 
-[   {   title:    "Burgers",
+[   {   title:    "OTTO",
+        subtitle: "A Full-Stack Node.js Application",
+        repo:     "https://github.com/Viridian1/CarApp", 
+        about:    "OTTO is our 2nd group project.  Technologies used on the front end include HTML, CSS, JavaScript and jQuery.  The back end uses Node.js, Express.js and MySQL.  It is configured with conventional M-V-C and ORM abstractions."
+    },
+    {   title:    "Burgers",
         subtitle: "A Full-Stack Node.js Application",
         image:    "images/burgers.png",
         www:      "https://bmccutchanjr-burger.herokuapp.com",
