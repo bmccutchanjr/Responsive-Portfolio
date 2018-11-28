@@ -230,9 +230,34 @@ footer
     {   flex-direction: column;
         font-size: 24px;
         justify-content: center;
+        text-align: center;
     }
 
     .header-nav
     {   font-size: 20px;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    main
+    {   width: 100%;
+    }
+
+    #slide-show
+    {   border-left: 0px;
+        border-right: 0px;
+        width: 100%;
+    }
+
+    .feature
+    {   border-left: 0px;
+        border-right: 0px;
+        width: 100%;
+    }
+
+    .feature-button
+    {   font-size: 12px;
     }
 }
