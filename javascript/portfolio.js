@@ -1,14 +1,15 @@
 const projects = 
-[   {   title:    "OTTO",
+[   {   title:    "CBS News Web Scraper",
         subtitle: "A Full-Stack Node.js Application",
-        image:    "images/otto.png",
-        repo:     "https://github.com/Viridian1/CarApp", 
-        about:    "OTTO is our 2nd group project.  Technologies used on the front end include HTML, CSS, JavaScript and jQuery.  The back end uses Node.js, Express.js and MySQL.  It is configured with conventional M-V-C and ORM abstractions."
+        image:    "images/webscraper.png",
+        www:      "https://bmccutchanjr-web-scraper.herokuapp.com",
+        repo:     "https://github.com/bmccutchanjr/Web-Scraper", 
+        about:    "The CBS News Web Scraper is a full-stack application utilizing Node.js, ExpressJS, MongoDB and Mongoose.  The application uses Axios and Cheerio NPM modules to retrieve the page at www.cbsnews.com and scrape information on the articles on that page."
     },
     {   title:    "Burgers",
         subtitle: "A Full-Stack Node.js Application",
         image:    "images/burgers.png",
-        www:      "https://bmccutchanjr-burger.herokuapp.com",
+        www:      "https://bmccutchanjr-burgers.herokuapp.com",
         repo:     "https://github.com/bmccutchanjr/burger", 
         video:    "https://drive.google.com/file/d/1onIz9hobYicptweNtew0LWa7_f_tZ4h8/view", 
         about:    "Burger is a full-stack web application built with Node.js, Express and Express-Handlebars.    It implements a Model-View-Controller (MVC) paradigm that creates multiple layers of abstraction.  It also uses Object-Relational Modeling (ORM), another abstraction, to interact with a MySQL database."
@@ -353,7 +354,7 @@ $("document").ready (function ()
                 }
                 case "link":
                 {   //
-                    window.open (projects[featured].link, "_blank");
+                    window.open (projects[featured].www, "_blank");
                     break;
                 }
                 case "repo":
