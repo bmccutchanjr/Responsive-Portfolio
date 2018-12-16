@@ -1,5 +1,13 @@
 const projects = 
-[   {   title:    "CBS News Web Scraper",
+[   {   title:    "Memory Game",
+        subtitle: "A React.js Application",
+        image:    "images/memory.png",
+        www:      "https://bmccutchanjr.github.io/Memory-Game/",
+        repo:     "https://github.com/bmccutchanjr/Memory-Game", 
+        video:    "https://drive.google.com/file/d/1HuYCTEwePVI-8rfWadSFCWIQA_0AMKih/view", 
+        about:    "Memory Game is my first application created with React.js.  It's a simple game constructed with just four componenets.  To win all you have to do is click on eack of the animal's cards without clicking on any of them more than once.  onClick events are captured in the Card component which is used to render each of the cards.  That event uses a callback function passed to it from App.js to implement the game's logic."
+    },
+    {   title:    "CBS News Web Scraper",
         subtitle: "A Full-Stack Node.js Application",
         image:    "images/webscraper.png",
         www:      "https://bmccutchanjr-web-scraper.herokuapp.com",
