@@ -1,5 +1,12 @@
 const projects = 
-[   {   title:    "Memory Game",
+[   {   title:    "Swords and Shields",
+        subtitle: "Boot Camp Final Project",
+        image:    "images/shields.png",
+        www:      "https://swords-and-shields.herokuapp.com/",
+        repo:     "https://github.com/MAGI-KORP/SwordsAndShields", 
+        about:    "Swords and Shields is a full-stack application.  A two-player fantasy combat game using multiple technologies.  The back end uses Node.JS to server API endpoints with Express.JS and player-to-player communication using socket.io.  The front-end is implemented in React.  Player authentication is handled with Passport and a passport-local strategy using Mongoose and a MongoDB database.  This project was a group effort."
+    },
+    {   title:    "Memory Game",
         subtitle: "A React.js Application",
         image:    "images/memory.png",
         www:      "https://bmccutchanjr.github.io/Memory-Game/",
